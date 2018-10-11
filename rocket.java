@@ -1,3 +1,8 @@
+/**
+        Get Forked Mac
+**/
+
+
 import java.util.Scanner;
 public class rocket {
         Scanner scnr = new Scanner(System.in);
@@ -35,6 +40,11 @@ public class rocket {
                 System.out.println();
             }
         }
+
+
+/**
+        This is a joke
+**/
 // this method comtrols the creation of the top part of the body 
     public static void drawBody(int scale){
         for(int line = 1; line <= scale; line++){ // this loop controls the amout of lines 
@@ -81,6 +91,10 @@ public class rocket {
             System.out.println();
         }
     }
+
+/**
+        If you manage to find out who I am, good for you.
+**/
     public static void drawBar(int scale){
         System.out.print("+");
         for(int bar = 1; bar <= scale * 2; bar++){ // this controls the amoumt plus equals depending on the scale
